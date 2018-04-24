@@ -11,7 +11,7 @@ module.exports = (nextConfig = {}) => {
         )
       }
 
-      const { dev, isServer } = options
+      const { isServer } = options
 
       config.plugins.push(
         new WebpackBar({
