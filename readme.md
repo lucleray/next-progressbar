@@ -1,8 +1,15 @@
-## next-progressbar
+<div align="center">
+<p>
+<a href="https://github.com/zeit/next.js">Next.js</a> +
+<a href="https://github.com/nuxt/webpackbar">WebpackBar</a>
+</p>
+<p>
+<img src="demo.gif" width="500px" style="border-radius:5px">
+</p>
+</div>
 
-[Next.js](https://github.com/zeit/next.js) + [WebpackBar](https://github.com/nuxt/webpackbar)
-
-![Demo](demo.gif)
+<br>
+<br>
 
 ### Installation
 
