@@ -2,6 +2,8 @@
 
 [Next.js](https://github.com/zeit/next.js) + [WebpackBar](https://github.com/nuxt/webpackbar)
 
+![Demo](demo.gif)
+
 ### Installation
 
 ```
