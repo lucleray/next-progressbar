@@ -12,13 +12,15 @@ module.exports = (nextConfig = {}) => {
       }
 
       const { isServer } = options
+      
+      const { barOptions = {} } = nextConfig;
 
-      config.plugins.push(
-        new WebpackBar({
-          name: isServer ? 'server' : 'client',
-          color: isServer ? 'orange' : 'green'
-        })
-      )
+      const webpackBar = Object.assign({}, barOptions, {
+        name: isServer ? 'server' : 'client',
+        color: isServer ? 'orange' : 'green'
+      });
+
+      config.plugins.push(new WebpackBar(webpackBar));
 
       if (typeof nextConfig.webpack === 'function') {
         return nextConfig.webpack(config, options)
