@@ -27,5 +27,7 @@ const withProgressBar = require('next-progressbar')
 
 module.exports = withProgressBar({
   // rest of your next config
+  // webpackbar options (optional)
+  barOptions: {/* ... */}
 })
 ```
