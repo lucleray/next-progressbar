@@ -15,7 +15,7 @@ module.exports = (nextConfig = {}) => {
       
       const { progressBar = {} } = nextConfig;
 
-      const webpackBar = Object.assign({}, barOptions, {
+      const webpackBar = Object.assign({}, progressBar, {
         name: isServer ? 'server' : 'client',
         color: isServer ? 'orange' : 'green'
       });
