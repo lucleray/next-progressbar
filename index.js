@@ -13,7 +13,7 @@ module.exports = (nextConfig = {}) => {
 
       const { isServer } = options
       
-      const { barOptions = {} } = nextConfig;
+      const { progressBar = {} } = nextConfig;
 
       const webpackBar = Object.assign({}, barOptions, {
         name: isServer ? 'server' : 'client',
