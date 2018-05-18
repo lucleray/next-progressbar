@@ -27,7 +27,25 @@ const withProgressBar = require('next-progressbar')
 
 module.exports = withProgressBar({
   // rest of your next config
-  // webpackbar options (optional)
-  progressBar: {/* ... */}
+})
+```
+
+### Configuration
+
+You can configure this plugin. The options are passed down to webpackbar.
+
+For more information, [have a look at the options available for webpackbar](https://github.com/nuxt/webpackbar#options).
+
+For example, you can enable the profiler :
+
+```js
+// next.config.js
+const withProgressBar = require('next-progressbar')
+
+module.exports = withProgressBar({
+  progressBar: {
+    profile: true
+  }
+  // rest of your next config
 })
 ```
