@@ -4,7 +4,7 @@
 <a href="https://github.com/nuxt/webpackbar">WebpackBar</a>
 </p>
 <p>
-<img src="demo.gif" width="500px" style="border-radius:5px">
+<img src="demo/demo.gif" width="500px" style="border-radius:5px">
 </p>
 </div>
 
@@ -37,6 +37,12 @@ You can configure this plugin. The options are passed down to webpackbar.
 For more information, [have a look at the options available for webpackbar](https://github.com/nuxt/webpackbar#options).
 
 For example, you can enable the profiler :
+
+<div align="center">
+<p>
+<img src="demo/profile-small.png" width="500px" style="border-radius:5px">
+</p>
+</div>
 
 ```js
 // next.config.js
