@@ -1,10 +1,18 @@
 {
   "name": "next-progressbar",
   "version": "0.0.2",
-  "keywords": ["next-plugins", "next", "next.js", "webpackbar", "progressbar"],
+  "keywords": [
+    "next-plugins",
+    "next",
+    "next.js",
+    "webpackbar",
+    "progressbar"
+  ],
   "description": "Add a progress bar to next.js",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "license": "MIT",
   "author": "lucleray",
   "homepage": "https://github.com/lucleray/next-progressbar#readme",
@@ -17,5 +25,8 @@
   },
   "dependencies": {
     "webpackbar": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack": "3.10.0"
   }
 }
