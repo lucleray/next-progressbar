@@ -19,6 +19,6 @@
     "webpackbar": "^2.6.1"
   },
   "devDependencies": {
-    "webpack": "3.10.0"
+    "webpack": "4.35.2"
   }
 }
