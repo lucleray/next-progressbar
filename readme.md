@@ -1,6 +1,6 @@
-⚠️ This package is deprecated because it can slow down your builds.
+> ⚠️ This package has been deprecated because it can slow down your builds.
 
----
+# next-progressbar
 
 <div align="center">
 <p>
