@@ -1,4 +1,4 @@
-⚠️ This package is deprecated because it can tremendously slow down your builds.
+⚠️ This package is deprecated because it can slow down your builds.
 
 ---
 
