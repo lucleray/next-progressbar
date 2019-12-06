@@ -1,3 +1,7 @@
+⚠️ This package is deprecated because it can tremendously slow down your builds.
+
+---
+
 <div align="center">
 <p>
 <a href="https://github.com/zeit/next.js">Next.js</a> +
