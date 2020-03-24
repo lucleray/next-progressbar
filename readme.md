@@ -1,4 +1,4 @@
-> ⚠️ This package has been deprecated because it can slow down your builds.
+> ⚠️ This package has been deprecated because it can slow down your builds. Upgrade to Next.js 9+ to get Build Output Statistics out-of-the-box.
 
 # next-progressbar
 
