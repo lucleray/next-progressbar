@@ -16,7 +16,7 @@
     "url": "https://github.com/lucleray/next-progressbar.git"
   },
   "dependencies": {
-    "webpackbar": "^2.6.1"
+    "webpackbar": "^3.2.0"
   },
   "devDependencies": {
     "webpack": "3.10.0"
